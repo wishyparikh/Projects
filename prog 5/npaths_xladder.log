@@ -1,0 +1,44 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++
++ THIS OUTPUT IS THE RESULT OF THE FOLLOWING COMMAND-LINE:
++
++    ./npaths xladder.g 
++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+< BEGIN ADJACENCY-LIST:
+
+a1 : (a2, 1) (b2, 3) 
+a2 : (a3, 0.4) (b3, 0.2) 
+a3 : (a4, 0.03) (b4, 0.01) 
+a4 : (a5, 0.002) (b5, 0.004) 
+a5 : 
+b1 : (b2, 2) (a2, 4) 
+b2 : (b3, 0.1) (a3, 0.3) 
+b3 : (b4, 0.04) (a4, 0.02) 
+b4 : (b5, 0.003) (a5, 0.001) 
+b5 : 
+
+END ADJACENCY LIST >
+
+
+NPATHS REPORT:
+
+    [NOTES:  'state' not necessarily meaningful
+             'pred' not meaningful ]
+             'dist' not meaningful ]
+
+a1 : dist=-1 ; pred=$NONE$ ; state='f'; npaths=16
+a2 : dist=-1 ; pred=$NONE$ ; state='f'; npaths=16
+a3 : dist=-1 ; pred=$NONE$ ; state='f'; npaths=16
+a4 : dist=-1 ; pred=$NONE$ ; state='f'; npaths=16
+a5 : dist=-1 ; pred=$NONE$ ; state='f'; npaths=16
+b1 : dist=-1 ; pred=$NONE$ ; state='f'; npaths=16
+b2 : dist=-1 ; pred=$NONE$ ; state='f'; npaths=16
+b3 : dist=-1 ; pred=$NONE$ ; state='f'; npaths=16
+b4 : dist=-1 ; pred=$NONE$ ; state='f'; npaths=16
+b5 : dist=-1 ; pred=$NONE$ ; state='f'; npaths=16
+
+END NPATHS REPORT
+

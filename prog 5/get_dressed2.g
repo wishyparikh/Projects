@@ -1,0 +1,19 @@
+
+wakeup       underwear     10.6
+wakeup       shirt         12.9
+wakeup       left_sock     4.8
+wakeup       right_sock    4.8
+left_sock    left_boot     9.4
+right_sock   right_boot    9.4
+underwear    pants         18.9
+pants        right_boot    9.4
+pants        left_boot     9.4
+shirt        coat          7.7
+shirt        hat           3.1
+coat         left_mitten  11.8
+coat         right_mitten 14.8
+left_boot    leave         0.0
+right_boot   leave         0.0
+left_mitten  leave         0.0
+right_mitten leave         0.0
+hat          leave         0.0

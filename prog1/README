@@ -1,0 +1,37 @@
+
+
+Test programs - batch-1
+
+Instructions:
+
+  Copy/download ALL of the files in this directory into your 
+own directory containing your implementation of List.h.
+(Including the weird looking _util.h and _test.h files).
+
+  There are five auto-scoring tester programs in this 
+batch.  The source files are listed below.
+
+    t1_eq_to.cpp
+    t2_count.cpp
+    t3_len.cpp
+    t4_pop_back.cpp
+    t5_prefix.cpp
+
+To compile the test programs you can simply type make from 
+the shell.
+
+You can also compile them directly one-by-one.
+
+Be sure to use -std=c++11   !!!
+
+When you run a test program, you will get a report for
+all of the individual tests that were run including points
+assigned.  (Unless the program crashes, then you
+might only get the output before the crash).
+
+Each test has a short description so you have some idea
+of the scenario being tested (details can be seen by examining
+the test programs themselves).
+
+
+    

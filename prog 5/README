@@ -1,0 +1,83 @@
+
+
+
+Test cases with correct output.
+-----------------------------------------
+Overview:  this directory contains a number of test programs,
+graphs, vertex orderings and the results of test runs (as 
+log files).  These test cases WILL be used for grading of
+the assignment.  However, additional test cases may be added
+prior to the due date.
+
+-----------------------------------------
+Instructions:
+
+  Copy your Graph.h file into a directory with all of these
+  files and type
+
+       make
+
+  The following executables will be produced:
+
+    bfs    <graph-filename> <source-vertex>
+
+    npaths <dag-filename>
+               (counts IO paths in a DAG)
+
+    cpaths <dag-filename>
+               (determines critical paths in DAG)
+
+    epaths <dag-filename> <target-vertex>
+               (enumerates input-paths to specified vertex)
+
+    vtopo <dag-filename> <vertex-order-filename>
+               (determines if the given vertex order is a valid
+                topological sort for the given DAG).
+
+--------------------------------------------
+
+Input files:
+
+  Graph files have a .g extension.  For example, rings.g and
+  chain.g are both graph files.
+
+  Vertex ordering files (used by vtopo) have a .o extension.
+  For example, get_dressed_1.o
+ 
+--------------------------------------------
+
+Log files:
+
+  Log files have a .log extension and give reference output for
+  particular program runs / test cases.
+
+  At the top of each log file you will find the exact command-line
+  statement which produced the log.
+
+  The log files are also named to give an idea of the test 
+  that produced them.  For example, epaths_chain_v10.log is the
+  output of:
+
+      ./epaths chain.g v10
+
+  (enumerating all paths in the graph "chain.g" ending at vertex
+  "v10").
+
+  Typically, the important information is at the bottom of the 
+  log file.  
+
+  Run the progams (which now use your Graph.h) exactly as they
+  were run to generate the log files; use the log files for
+  reference.
+
+--------------------------------------------
+  
+Disclaimer:
+
+  The results shown in the .log files are strongly believed to
+  be correct.  However, if you find a discrepancy, please let 
+  us know (e.g., your implementation reports a different answer
+  for a particular test and you have been able to confirm (by hand)
+  that you are correct).
+
+

@@ -1,0 +1,52 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++
++ THIS OUTPUT IS THE RESULT OF THE FOLLOWING COMMAND-LINE:
++
++    ./cpaths chain.g 
++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+< BEGIN ADJACENCY-LIST:
+
+v1 : (v2, 1) (v3, 3) (v4, 5) 
+v2 : (v3, 1) (v4, 3) (v5, 5) 
+v3 : (v4, 1) (v5, 3) (v6, 5) 
+v4 : (v5, 1) (v6, 3) (v7, 5) 
+v5 : (v6, 1) (v7, 3) (v8, 5) 
+v6 : (v7, 1) (v8, 3) (v9, 5) 
+v7 : (v8, 1) (v9, 3) (v10, 5) 
+v8 : (v9, 1) (v10, 3) 
+v9 : (v10, 1) 
+v10 : 
+
+END ADJACENCY LIST >
+
+
+CPATHS REPORT:
+     [NOTES:  'state' not necessarily meaningful
+              'npaths' not necessarily meaningful]
+
+v1 : dist=0 ; pred=v1 ; state='f'; npaths=0
+     PATH: <v1>
+v2 : dist=1 ; pred=v1 ; state='f'; npaths=0
+     PATH: <v1 v2>
+v3 : dist=3 ; pred=v1 ; state='f'; npaths=0
+     PATH: <v1 v3>
+v4 : dist=5 ; pred=v1 ; state='f'; npaths=0
+     PATH: <v1 v4>
+v5 : dist=6 ; pred=v4 ; state='f'; npaths=0
+     PATH: <v1 v4 v5>
+v6 : dist=8 ; pred=v4 ; state='f'; npaths=0
+     PATH: <v1 v4 v6>
+v7 : dist=10 ; pred=v4 ; state='f'; npaths=0
+     PATH: <v1 v4 v7>
+v8 : dist=11 ; pred=v7 ; state='f'; npaths=0
+     PATH: <v1 v4 v7 v8>
+v9 : dist=13 ; pred=v7 ; state='f'; npaths=0
+     PATH: <v1 v4 v7 v9>
+v10 : dist=15 ; pred=v7 ; state='f'; npaths=0
+     PATH: <v1 v4 v7 v10>
+
+END CPATHS REPORT
+

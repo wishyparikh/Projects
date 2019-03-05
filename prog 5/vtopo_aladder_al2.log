@@ -1,0 +1,26 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++
++ THIS OUTPUT IS THE RESULT OF THE FOLLOWING COMMAND-LINE:
++
++    ./vtopo aladder.g aladder_2.o 
++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+< BEGIN ADJACENCY-LIST:
+
+a1 : (a2, 1) (b2, 3) 
+a2 : (a3, 0.4) (b3, 0.2) 
+a3 : (a4, 0.03) (b4, 0.01) 
+a4 : (a5, 0.002) (b5, 0.004) 
+a5 : 
+b1 : (b2, 2) 
+b2 : (b3, 0.1) 
+b3 : (b4, 0.04) 
+b4 : (b5, 0.003) 
+b5 : 
+
+END ADJACENCY LIST >
+
+      RESULT: valid_topo_order() SAYS:  YES!
+

@@ -1,0 +1,27 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++
++ THIS OUTPUT IS THE RESULT OF THE FOLLOWING COMMAND-LINE:
++
++    ./vtopo get_dressed.g get_dressed_2.o 
++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+< BEGIN ADJACENCY-LIST:
+
+left_sock : (left_boot, 1) 
+left_boot : 
+right_sock : (right_boot, 1) 
+right_boot : 
+underwear : (pants, 1) 
+pants : (right_boot, 1) (left_boot, 1) 
+shirt : (coat, 1) (hat, 1) 
+coat : (left_mitten, 1) (right_mitten, 1) 
+hat : 
+left_mitten : 
+right_mitten : 
+
+END ADJACENCY LIST >
+
+      RESULT: valid_topo_order() SAYS:  NO!
+
